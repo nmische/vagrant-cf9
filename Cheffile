@@ -8,7 +8,8 @@ cookbook 'coldfusion902',
   :git => 'https://github.com/wharton/chef-coldfusion902.git'
 cookbook 'mysql'
 cookbook 'mxunit', 
-  :git => 'https://github.com/wharton/chef-mxunit.git'
+  :git => 'https://github.com/wharton/chef-mxunit.git',
+  :ref => 'v0.0.3-cf902'
 cookbook 'rng-tools'
 
 # cookbook 'chef-client'
