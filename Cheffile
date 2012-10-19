@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+cookbook 'apache2'
+cookbook 'apt'
+cookbook 'coldfusion902',
+  :git => 'https://github.com/wharton/chef-coldfusion902.git'
+cookbook 'mysql'
+cookbook 'mxunit', 
+  :git => 'https://github.com/wharton/chef-mxunit.git'
+cookbook 'rng-tools'
+
+# cookbook 'chef-client'
+
+# cookbook 'apache2', '>= 1.0.0'
+
+# cookbook 'rvm',
+#   :git => 'https://github.com/fnichol/chef-rvm'
+
+# cookbook 'postgresql',
+#   :git => 'https://github.com/findsyou/cookbooks',
+#   :ref => 'postgresql-improvements'
